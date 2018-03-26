@@ -25,6 +25,22 @@ a {
     color: inherit;
 }
 
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'PTSans';
+    src:url('fonts/web/ptsans.woff') format('woff'),
+    url('fonts/web/ptsans.woff2') format('woff2');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'PTSans-Bold';
+    src:url('fonts/web/ptsansbold.woff') format('woff'),
+    url('fonts/web/ptsansbold.woff2') format('woff2');
+}
+
 .page-header {
     margin: 0 auto;
     max-width: 1200px;
@@ -50,6 +66,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family:'PTSans-Bold';
+    color: black;
+    font-size: 14px;
 }
 
 .main-menu__item_logo {
@@ -59,9 +78,15 @@ a {
 .main-menu__item_logo img {
     position: absolute;
     top: 0;
-
 }
 
+.main-menu__item_logo-tablet {
+    display: none;
+}
+
+.main-menu__item_logo-mobile {
+    display: none;
+}
 .causes__bg {
     margin: 0 auto;
     max-width: 1200px;
