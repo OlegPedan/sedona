@@ -236,3 +236,16 @@ h1 {
 .page-footer__copyright-link {
     margin: 9px 0 0 13px;
 }
+
+@media (min-width: 750px) and (max-width: 1100px){
+    .main-menu__item_logo {display: none;}
+    .main-menu__item_logo-tablet {
+        display: flex;
+        position: relative;
+    }
+
+    .main-menu__item_logo-tablet img {
+        position: absolute;
+        top: 0;
+    }
+}
