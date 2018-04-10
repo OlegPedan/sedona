@@ -1,8 +1,8 @@
-@media (max-width: 750px){
-
+@media (min-width: 320px) and (max-width: 750px){
 
     .page-wrapper {
-        max-width: 768px;
+        max-width: 320px;
+        min-width: 320px;
         margin: 0 auto;
         box-shadow: 0 0 10px 5px #ccc;
         background-color: white;
@@ -17,31 +17,33 @@
     }
 
     .main-menu__items {
-        display: flex;
-        justify-content: space-around;
-        min-height: 56px;
+        display: block;
+        min-height: 224px;
+
     }
 
     .main-menu__item {
-        display: flex;
-        justify-content: center;
-        min-width: 150px;
+        display: block;
+        min-height: 36px;
+        padding-top: 20px;
+        background-color: #81b3d2;
+        border-bottom: #678fa8 1px solid;
+        border-top: #9ac2db 1px solid;
     }
 
     .main-menu__item a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
         font-family: 'PTSans-Bold';
-        color: black;
+        color: white;
         font-size: 14px;
     }
 
     .main-menu__item_logo {display: none;}
     .main-menu__item_logo-tablet {display: none;}
     .main-menu__item_logo-mobile {
-        display: flex;
         position: relative;
+        background-color: white;
+        border: none;
     }
 
     .main-menu__item_logo-mobile img {
@@ -49,8 +51,11 @@
         top: 0;
     }
     .causes__bg {
+        display: flex;
+        justify-content: center;
+        padding-top: 78px;
         min-height: 568px;
-        background-image: url("img/intro.jpg");
+        background-image: url("img/intro-photo_desktop.jpg");
         background-repeat:no-repeat;
         background-position: 50% 50%;
         background-size: cover;

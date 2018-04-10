@@ -94,11 +94,19 @@ body {
     display: none;
 }
 .causes__bg {
+    display: flex;
+    justify-content: center;
+    padding-top: 78px;
     min-height: 568px;
-    background-image: url("img/intro.jpg");
+    background-image: url("img/intro-photo_desktop.jpg");
     background-repeat:no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+}
+
+.causes__bg img {
+    width: fit-content;
+    height: fit-content;
 }
 
 h1 {
