@@ -1,0 +1,87 @@
+@media (max-width: 768px){
+
+    .page-wrapper {
+        max-width: 320px;
+        transition: max-width.3s ease;
+    }
+
+    .main-menu__items {
+        flex-direction: column;
+    }
+
+    .main-menu__item {
+        background-color: #81b3d2;
+        border-bottom: #678fa8 1px solid;
+        border-top: #9ac2db 1px solid;
+    }
+
+    .main-menu__item a {
+        color: white;
+    }
+
+    .main-menu__item_logo{
+        order: 5;
+        background-color: white;
+        border: none;
+    }
+
+    .causes__bg {
+        padding-top: 90px;
+        height: 298px;
+        background-image: url("images/intro-photo_desktop.jpg");
+        background-size: cover;
+    }
+
+    .causes__bg img {
+        width: auto;
+        height: 212px;
+    }
+
+    .causes__items {
+        display: flex;
+        flex-flow: row wrap;
+        align-content:stretch;
+    }
+    .causes__item_foto {
+        height: 256px;
+    }
+    .causes__item_fill {
+        height: 167px;
+    }
+
+    .causes__item_foto {
+        width: 800px;
+    }
+
+    .causes__item_icon {
+        text-align: left;
+        height: 138px;
+        position: relative;
+    }
+
+    .causes__item_icon img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 0;
+        left: 50px;
+    }
+
+    .causes__item_grayish {
+        height: 167px;
+    }
+
+    .hotels__toggle {
+        width: 280px;
+    }
+
+    .page-footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 220px;
+        padding-top: 20px;
+    }
+
+    }

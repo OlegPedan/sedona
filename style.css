@@ -25,6 +25,11 @@ a {
     color: inherit;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 @font-face {
     font-weight: normal;
     font-style: normal;
@@ -46,6 +51,7 @@ a {
     margin: 0 auto;
     box-shadow: 0 0 10px 5px #ccc;
     background-color: white;
+    transition: max-width .3s ease;
 }
 
 body {
@@ -59,12 +65,12 @@ body {
 .main-menu__items {
     display: flex;
     justify-content: space-around;
-    min-height: 56px;
 }
 
 .main-menu__item {
     display: flex;
     justify-content: center;
+    min-height: 56px;
     min-width: 150px;
 }
 
@@ -79,34 +85,25 @@ body {
 
 .main-menu__item_logo {
     position: relative;
+    text-align: center;
 }
 
-.main-menu__item_logo img {
+.main-menu__item_logo picture {
     position: absolute;
     top: 0;
+    width: 188px;
+    height: 96px;
 }
 
-.main-menu__item_logo-tablet {
-    display: none;
-}
-
-.main-menu__item_logo-mobile {
-    display: none;
-}
 .causes__bg {
     display: flex;
     justify-content: center;
     padding-top: 78px;
-    min-height: 568px;
-    background-image: url("img/intro-photo_desktop.jpg");
+    height: 440px;
+    background-image: url("images/intro-photo_desktop.jpg");
     background-repeat:no-repeat;
     background-position: 50% 50%;
-    background-size: cover;
-}
-
-.causes__bg img {
-    width: fit-content;
-    height: fit-content;
+    background-size: auto;
 }
 
 h1 {
@@ -119,6 +116,7 @@ h1 {
 
 .causes__intro{
     margin-top: 38px;
+    margin-bottom: 58px;
     text-align: center;
     font-family: 'PTSans';
     color: black;
@@ -127,13 +125,27 @@ h1 {
 
 .causes__items {
     display: flex;
-    flex-flow: row wrap;
     align-content:stretch;
-    margin-top: 58px;
 }
+
+.causes__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .causes__item_foto {
-    height: 256px;
+     height: 256px;
+     width: 800px;
+ }
+
+.causes__item_foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 .causes__item_fill {
     height: 256px;
     width: 400px;
@@ -143,24 +155,19 @@ h1 {
 }
 
 .causes__caption{
-    margin-top: 50px;
     font-family: 'PTSans-Bold';
     font-size: 21px;
 }
 
 .causes__number{
-    margin-top: 18px;
+    margin: 20px 0 30px 0;
     font-family: 'PTSans';
     font-size: 16px;
 }
 
 .causes__explanation {
-    margin-top: 28px;
     font-family: 'PTSans';
     font-size: 14px;
-}
-.causes__item_foto {
-    width: 800px;
 }
 
 .causes__item_icon {
@@ -178,12 +185,13 @@ h1 {
     color: black;
 }
 .causes__item_icon img {
-    margin-top: 60px;
 }
 
-.causes__caption_icon,
+.causes__caption_icon{
+    margin: 30px 0;
+}
+
 .causes__explanation_icon {
-    margin-top: 30px;
 }
 
 .hotels {
@@ -215,17 +223,17 @@ h1 {
 .hotels__map {
     margin-top: 54px;
     height: 350px;
-    max-width: 1200px;
-    background-image: url("img/map.jpg");
+    background-image: url("images/map.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 
 }
 .page-footer__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
     min-height: 120px;
-    max-width: 1020px;
 }
 
 .page-footer__contacts {
@@ -238,22 +246,9 @@ h1 {
     justify-content: center;
     align-items: center;
     font-family: 'PTSans';
-    font-size: 18px;
+    font-size: 14px;
     color: black;
 }
 .page-footer__copyright-link {
     margin: 9px 0 0 13px;
-}
-
-@media (min-width: 750px) and (max-width: 1100px){
-    .main-menu__item_logo {display: none;}
-    .main-menu__item_logo-tablet {
-        display: flex;
-        position: relative;
-    }
-
-    .main-menu__item_logo-tablet img {
-        position: absolute;
-        top: 0;
-    }
 }
