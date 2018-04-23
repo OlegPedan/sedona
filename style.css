@@ -107,7 +107,7 @@ body {
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     font-family: 'PTSans-Bold';
     color: black;
@@ -115,7 +115,7 @@ h1 {
 }
 
 .causes__intro{
-    margin-top: 38px;
+    margin-top: 40px;
     margin-bottom: 58px;
     text-align: center;
     font-family: 'PTSans';
@@ -160,7 +160,7 @@ h1 {
 }
 
 .causes__number{
-    margin: 20px 0 30px 0;
+    margin: 10px 0 20px 0;
     font-family: 'PTSans';
     font-size: 16px;
 }

@@ -36,6 +36,20 @@
         width: auto;
         height: 212px;
     }
+    h1 {
+        padding: 0 10px;
+    }
+    .causes__intro {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .causes__intro::after {
+        content: url("images/Слой_intro.png");
+        position: absolute;
+        top:50px;
+        left: 0;
+    }
 
     .causes__items {
         display: flex;
@@ -46,7 +60,15 @@
         height: 256px;
     }
     .causes__item_fill {
-        height: 167px;
+        height: 192px;
+    }
+
+    .causes__item_fill_mobile {
+        padding-top: 41px;
+}
+
+    .causes__caption_fill br{
+        display: none;
     }
 
     .causes__item_foto {
