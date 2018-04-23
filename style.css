@@ -135,12 +135,12 @@ h1 {
     justify-content: center;
 }
 
-.causes__item_foto {
+.causes__item_photo {
      height: 256px;
      width: 800px;
  }
 
-.causes__item_foto img {
+.causes__item_photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -156,7 +156,7 @@ h1 {
 
 .causes__caption{
     font-family: 'PTSans-Bold';
-    font-size: 21px;
+    font-size: 19px;
 }
 
 .causes__number{
