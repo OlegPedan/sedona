@@ -93,6 +93,33 @@
         height: 167px;
     }
 
+    .causes__caption_grayish br{
+        display: none;
+    }
+
+    .causes__item_grayish_mobile{
+position: relative;
+    }
+
+    .causes__item_grayish_mobile:before{
+        position: absolute;
+        top: 0;
+        left: 20px;
+        content:"";
+        height: 1px;
+        width: 280px;
+        background-color: #d6d6d6;
+    }
+
+    .causes__item_grayish_mobile:after{
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        content:"";
+        height: 1px;
+        width: 280px;
+        background-color: #d6d6d6;
+    }
     .hotels__toggle {
         width: 280px;
     }

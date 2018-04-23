@@ -13,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4485714">
+    <splitter split-orientation="horizontal" split-proportion="0.384375">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+                <state relative-caret-position="396">
+                  <caret line="78" column="86" lean-forward="true" selection-start-line="78" selection-start-column="86" selection-end-line="78" selection-end-column="86" />
                 </state>
               </provider>
             </entry>
@@ -50,8 +50,8 @@
           <file leaf-file-name="style3.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style3.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="29" />
+                <state relative-caret-position="317">
+                  <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/style-tablet.css" />
         <option value="$PROJECT_DIR$/style-mobile.css" />
         <option value="$PROJECT_DIR$/style2.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style3.css" />
       </list>
     </option>
@@ -96,7 +96,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="82" />
     <option name="y" value="82" />
     <option name="width" value="1400" />
@@ -182,12 +182,12 @@
       <workItem from="1524287491170" duration="137000" />
       <workItem from="1524288232595" duration="135000" />
       <workItem from="1524410074145" duration="1329000" />
-      <workItem from="1524459099166" duration="6873000" />
+      <workItem from="1524459099166" duration="10244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165921000" />
+    <option name="totallyTimeSpent" value="169292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -574,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -588,10 +581,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="78" column="86" lean-forward="true" selection-start-line="78" selection-start-column="86" selection-end-line="78" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="317">
+          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
         </state>
       </provider>
     </entry>
