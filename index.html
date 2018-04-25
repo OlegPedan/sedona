@@ -9,105 +9,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="page-wrapper">
-    <header class="page-header">
-        <nav class="main-menu main-menu_closed main-menu_nojs">
-            <ul class="main-menu__items">
-                <li class="main-menu__item main-menu__item_active"><a>ГЛАВНЯ</a></li>
-                <li class="main-menu__item"><a href="#">ФОТО И ВИДЕО</a></li>
-                <li class="main-menu__item main-menu__item_logo"><a href="#">
-                    <picture>
-                        <source media="(min-width: 1201px)" srcset="images/logo-desktop.png">
-                        <source media="(min-width: 769px)" srcset="images/logo-tablet.png">
-                        <img src="images/logo-mobile.png" alt="Logo" srcset="images/logo-mobile.png">
-                    </picture>
-                </a></li>
-                <li class="main-menu__item"><a href="#">ФОРМА ОТЗЫВА</a></li>
-                <li class="main-menu__item"><a href="#">HTML ACADEMY</a></li>
+    <div class="page-wrapper">
+        <header class="page-header">
+                <nav class="main-menu__items">
+                    <input id="main-menu_check" type="checkbox">
+                    <label class="main-menu__toggle" for="main-menu_check"></label>
+                    <div class="main-menu__item main-menu__item_active"><a>ГЛАВНЯ</a></div>
+                    <div class="main-menu__item"><a href="#">ФОТО И ВИДЕО</a></div>
+                    <div class="main-menu__item main-menu__item_logo">
+                        <a href="#">
+                            <picture>
+                                <source media="(min-width: 1201px)" srcset="images/logo-desktop.png">
+                                <source media="(min-width: 769px)" srcset="images/logo-tablet.png">
+                                <img src="images/logo-mobile.png" alt="Logo" srcset="images/logo-mobile.png">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="main-menu__item"><a href="#">ФОРМА ОТЗЫВА</a></div>
+                    <div class="main-menu__item"><a href="#">HTML ACADEMY</a></div>
+                </nav>
+        </header>
+        <section class="causes">
+            <div class="causes__bg"><a href="#"><img src="images/intro-logo_desktop.png" width="460" height="350" alt="Sedona"></a></div>
+            <h1>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,
+                <br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+            <p class="causes__intro">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДНА КРУЧЕ ЧЕМ ГРАНД КАНЬОН!</p>
+            <ul class="causes__items">
+                <li class="causes__item causes__item_fill causes__item_fill_mobile">
+                    <p class="causes__caption causes__caption_fill">НАСТОЯЩИЙ<br> ГОРОДОК</p>
+                    <p class="causes__number">- №1 -</p>
+                    <p class="causes__explanation">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ,<br> ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+                </li>
+                <li class="causes__item causes__item_photo">
+                    <img src="images/photo-city.jpg" width="800" height="400" alt="City">
+                </li>
             </ul>
-            <button class="main-menu__toggle" type="button">Открыть меню</button>
-        </nav>
-    </header>
-    <section class="causes">
-        <div class="causes__bg"><a href="#"><img src="images/intro-logo_desktop.png" width="460" height="350" alt="Sedona"></a></div>
-        <h1>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,
-            <br>ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
-        <p class="causes__intro">РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДНА КРУЧЕ ЧЕМ ГРАНД КАНЬОН!</p>
-        <ul class="causes__items">
-            <li class="causes__item causes__item_fill causes__item_fill_mobile">
-                <p class="causes__caption causes__caption_fill">НАСТОЯЩИЙ<br> ГОРОДОК</p>
-                <p class="causes__number">- №1 -</p>
-                <p class="causes__explanation">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ,<br> ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-            </li>
-            <li class="causes__item causes__item_photo">
-                <img src="images/photo-city1.jpg" width="800" height="400" alt="City">
-            </li>
-        </ul>
-        <ul class="causes__items">
-            <li class="causes__item causes__item_icon">
-                <img src="images/icon-house.png" width="75" height="72" alt="House">
-                <p class="causes__caption causes__caption_icon">ЖИЛЬЕ</p>
-                <p class="causes__explanation causes__explanation_icon">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ<br> МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
-            </li>
-            <li class="causes__item causes__item_icon causes__item_icon_mobile">
-                <img src="images/icon-burger.png" width="77" height="68" alt="Burger">
-                <p class="causes__caption causes__caption_icon">ЕДА</p>
-                <p class="causes__explanation causes__explanation_icon">ВСЕГДА ЗАКАЗЫВАЙ ФИРМЕННЫЙ БУРГЕР,<br> ВЫ НЕРОЗОЧАРУЕТЕСЬ!</p>
-            </li>
-            <li class="causes__item causes__item_icon ">
-                <img src="images/icon-gift.png" width="64" height="75" alt="Gift">
-                <p class="causes__caption causes__caption_icon">СУВИНИРЫ</p>
-                <p class="causes__explanation causes__explanation_icon">НЕ ТОЛЬКО КИТАЙСКОГО,<br> НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
-            </li>
-        </ul>
-        <ul class="causes__items">
-            <li class="causes__item causes__item_photo causes__item_photo_mobile">
-                <img src="images/photo-bridge1.jpg" width="800" height="400" alt="Sedona">
-            </li>
-            <li class="causes__item causes__item_fill">
-                <p class="causes__caption causes__caption_fill">ТАМ ЕСТЬ<br> МОСТ ДЬЯВОЛА</p>
-                <p class="causes__number">- №2 -</p>
-                <p class="causes__explanation">ДА, ПО НЕМУ МОЖНО ПРОЙТИ!<br> ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
-            </li>
-        </ul>
-        <ul class="causes__items">
-            <li class="causes__item causes__item_grayish">
-                <p class="causes__caption causes__caption_grayish">НЕБОЛЬШАЯ<br> ПЛОЩАДЬ</p>
-                <p class="causes__number causes__number_grayish">- №3 -</p>
-                <p class="causes__explanation causes__explanation_grayish">ВСЕ ДОСТОПРИМЕЧА-<br>ТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
-            </li>
-            <li class="causes__item causes__item_grayish causes__item_grayish_mobile">
-                <p class="causes__caption causes__caption_grayish">КРАСИВАЯ<br> ДОРОГА</p>
-                <p class="causes__number causes__number_grayish">- №4 -</p>
-                <p class="causes__explanation causes__explanation_grayish">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
-            </li>
-            <li class="causes__item causes__item_grayish">
-                <p class="causes__caption causes__caption_grayish">МАЛО<br> ТУРИСТОВ</p>
-                <p class="causes__number causes__number_grayish">- №5 -</p>
-                <p class="causes__explanation causes__explanation_grayish">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И<br> ТОЛПИТСЯ ТАМ</p>
-            </li>
-        </ul>
-    </section>
-    <section class="hotels">
-        <p class="hotels__caption">ЗАИНТЕРЕСОВАЛИСЬ?</p>
-        <p class="hotels__explanation">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ<br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-        <button class="hotels__toggle" type="button">НАЙТИ ГОСТИНИЦУ</button>
-        <div class="hotels__map"></div>
-    </section>
-    <footer class="page-footer">
-        <div class="page-footer__wrapper">
-            <a class="page-footer__contacts" href="#">#VISITSEDONA</a>
-            <p class="page-footer__social">
-                <span class="social-links">
-                <a class="social-link social-link_tw" href="https://vk.com/htmlacademy"><img src="images/icon-twitter.png" width="46" height="48" alt="tw"></a>
-                <a class="social-link social-link_fb" href="https://www.facebook.com/htmlacademy"><img src="images/icon-fasebook.png" width="47" height="48" alt="fb"></a>
-                <a class="social-link social-link_youtube" href="https://www.instagram.com/htmlacademy"><img src="images/icon-youtube.png" width="46" height="48" alt="yuotube"></a>
-                </span>
-            </p>
-            <p class="page-footer__copyright">РАЗРАБОТАНО<a class="btn page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive"><img src="images/icon-htmlacademy.png" width="27" height="34" alt="htmlacademy"></a>
-            </p>
-        </div>
-    </footer>
-</div>
+            <ul class="causes__items">
+                <li class="causes__item causes__item_icon">
+                    <img src="images/icon-house.png" width="75" height="72" alt="House">
+                    <p class="causes__caption causes__caption_icon">ЖИЛЬЕ</p>
+                    <p class="causes__explanation causes__explanation_icon">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ<br> МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+                </li>
+                <li class="causes__item causes__item_icon causes__item_icon_mobile">
+                    <img src="images/icon-burger.png" width="77" height="68" alt="Burger">
+                    <p class="causes__caption causes__caption_icon">ЕДА</p>
+                    <p class="causes__explanation causes__explanation_icon">ВСЕГДА ЗАКАЗЫВАЙ ФИРМЕННЫЙ БУРГЕР,<br> ВЫ НЕРОЗОЧАРУЕТЕСЬ!</p>
+                </li>
+                <li class="causes__item causes__item_icon ">
+                    <img src="images/icon-gift.png" width="64" height="75" alt="Gift">
+                    <p class="causes__caption causes__caption_icon">СУВИНИРЫ</p>
+                    <p class="causes__explanation causes__explanation_icon">НЕ ТОЛЬКО КИТАЙСКОГО,<br> НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+                </li>
+            </ul>
+            <ul class="causes__items">
+                <li class="causes__item causes__item_photo causes__item_photo_mobile">
+                    <img src="images/photo-bridge.jpg" width="800" height="400" alt="Sedona">
+                </li>
+                <li class="causes__item causes__item_fill">
+                    <p class="causes__caption causes__caption_fill">ТАМ ЕСТЬ<br> МОСТ ДЬЯВОЛА</p>
+                    <p class="causes__number">- №2 -</p>
+                    <p class="causes__explanation">ДА, ПО НЕМУ МОЖНО ПРОЙТИ!<br> ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+                </li>
+            </ul>
+            <ul class="causes__items">
+                <li class="causes__item causes__item_grayish">
+                    <p class="causes__caption causes__caption_grayish">НЕБОЛЬШАЯ<br> ПЛОЩАДЬ</p>
+                    <p class="causes__number causes__number_grayish">- №3 -</p>
+                    <p class="causes__explanation causes__explanation_grayish">ВСЕ ДОСТОПРИМЕЧА-<br>ТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+                </li>
+                <li class="causes__item causes__item_grayish causes__item_grayish_mobile">
+                    <p class="causes__caption causes__caption_grayish">КРАСИВАЯ<br> ДОРОГА</p>
+                    <p class="causes__number causes__number_grayish">- №4 -</p>
+                    <p class="causes__explanation causes__explanation_grayish">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
+                </li>
+                <li class="causes__item causes__item_grayish">
+                    <p class="causes__caption causes__caption_grayish">МАЛО<br> ТУРИСТОВ</p>
+                    <p class="causes__number causes__number_grayish">- №5 -</p>
+                    <p class="causes__explanation causes__explanation_grayish">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И<br> ТОЛПИТСЯ ТАМ</p>
+                </li>
+            </ul>
+        </section>
+        <section class="hotels">
+            <p class="hotels__caption">ЗАИНТЕРЕСОВАЛИСЬ?</p>
+            <p class="hotels__explanation">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ<br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+            <button class="hotels__toggle" type="button">НАЙТИ ГОСТИНИЦУ</button>
+            <div class="hotels__map"></div>
+        </section>
+        <footer class="page-footer">
+            <div class="page-footer__wrapper">
+                <a class="page-footer__contacts" href="#">#VISITSEDONA</a>
+                <p class="page-footer__social">
+                    <span class="social-links">
+                        <a class="social-link social-link_tw" href="https://vk.com/htmlacademy"><img src="images/icon-twitter.png" width="46" height="48" alt="tw"></a>
+                        <a class="social-link social-link_fb" href="https://www.facebook.com/htmlacademy"><img src="images/icon-fasebook.png" width="47" height="48" alt="fb"></a>
+                        <a class="social-link social-link_youtube" href="https://www.instagram.com/htmlacademy"><img src="images/icon-youtube.png" width="46" height="48" alt="yuotube"></a>
+                    </span>
+                </p>
+                <p class="page-footer__copyright">РАЗРАБОТАНО<a class="btn page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive"><img src="images/icon-htmlacademy.png" width="27" height="34" alt="htmlacademy"></a>
+                </p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
