@@ -136,6 +136,7 @@ h1 {
 
 .causes__item_photo {
     height: 256px;
+    width: 800px;
  }
 
 .causes__item_photo img {
